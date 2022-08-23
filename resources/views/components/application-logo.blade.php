@@ -1,0 +1,1 @@
+<img class="block h-12 w-auto mx-auto fill-current" src="/img/STRIZZI_Logo.png" alt="Logo">

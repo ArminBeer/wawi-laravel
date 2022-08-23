@@ -1,0 +1,80 @@
+.arrow-right {
+    background-image: url('/img/arrow_right.svg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    color: #999;
+    line-height: 1.2;
+    padding-right: 25px;
+}
+.bg-strizzi {
+    background-color: #006d39;
+}
+.border-strizzi {
+    border-color: #57eb79;
+}
+.bg-strizzi-red {
+    background-color: #b80015;
+}
+.text-strizzi {
+    color: #006d39;
+}
+.text-strizzi-red {
+    color: #b80015;
+}
+.select2 {
+    border-radius: 0!important;
+    width: 100% !important;
+}
+.table-row-group .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    border-radius: 0;
+}
+.items-end {
+    align-items: flex-end;
+}
+.dataTables_filter input {
+    height: 30px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 250px;
+}
+
+.custom-h-40 {
+    height: 10rem;
+}
+
+.custom-h-36 {
+    height: 9rem;
+}
+
+
+.dataTables_length {
+    margin-bottom: 20px;
+}
+
+.dataTables_paginate {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.dataTables_paginate a.paginate_button {
+    background-color: #1F2937;
+    padding: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.dataTables_paginate a.next {
+    margin-left: 5px;
+}
+
+.dataTables_paginate a.previous {
+    margin-right: 5px;
+}
+
+.dataTables_paginate span a {
+    margin: 0 5px;
+}
+
+.dataTables_paginate span a.current {
+    background-color: #006d39;
+}

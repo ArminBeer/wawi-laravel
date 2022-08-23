@@ -1,0 +1,71 @@
+.wun-card-wrapper {
+    width: 100%;
+}
+.wun-card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(33.3333% - 20px);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
+}
+
+.wun-card.hidden {
+    display: none;
+}
+
+.wun-card-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    margin-bottom: 10px;
+    max-width: none;
+    width: 100%;
+}
+.wun-card-buttons {
+    display: flex;
+}
+.wun-card-order {
+    align-items: center;
+    background-color: #006d39;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    padding: 5px 10px;
+    width: 100%;
+}
+header .wun-card-order {
+    margin-right: 5px;
+}
+.wun-card-order svg {
+    fill: #fff;
+    height: 1rem;
+    width: 1rem;
+}
+.wun-card-order span {
+    margin-right: 5px;
+}
+.wun-card-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.wun-card-text p {
+    padding: 15px;
+}
+
+@media screen and (max-width: 991px) {
+    .wun-card {
+        width: calc(50% - 20px);
+    }
+    .wun-card-image {
+        height: 300px;
+    }
+}

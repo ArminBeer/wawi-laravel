@@ -1,0 +1,19 @@
+.rezept .text-col{
+    margin-right: 30px;
+    width: calc(70% - 15px);
+}
+.rezept .zutat-col{
+    width: calc(30% - 15px);
+}
+.rezept .text-header {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.rezept .text-body {
+    font-size: 1rem;
+    padding: 10px;
+}
+.rezept .rezept-box {
+    background-color: white;
+    margin-bottom: 1rem;
+}
